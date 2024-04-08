@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ágil - Scrum Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio Ágil</h1>
+        <h2>Scrum Team: MementoMori</h2>
+    </header>
+
+    <main>
+        <section id="formulario">
+
+            <h3>Dados do Scrum Team</h3>
+
+            <form action="#dados-scrum-team">
+                <label for="mementomori">Nome do Scrum Team</label>
+                <input type="text" id="mementomori" name="mementomori" required> 
+                <label for="justificativa">Justificativa do nome:</label>
+                <textarea id="justificativa" name="justificativa" required></textarea> 
+                <label for="membros" class="titulo-membros">Membros do Scrum Team</label>
+                <ul id="membros">
+                    <li>
+                        <label for="membro-1-nome">Nome:</label>
+                        <input type="text" id="membro-1-nome" name="membro-1-nome" required> 
+                        <label for="membro-1-cargo">Cargo:</label>
+                        <select id="membro-1-cargo" name="membro-1-cargo">
+                            <option value="product-owner">Product Owner</option>
+                            <option value="scrum-master">Scrum Team</option>
+                            <option value="front-end">Front-End</option>
+                            <option value="back-end">Back-End</option>
+                            <option value="banco-de-dados">Banco de Dados</option>
+                        </select> 
+                    </li>
+                </ul>
+                <label for="daily-meeting">Dia e horário da Daily Meeting:</label>
+                <input type="text" id="daily-meeting" name="daily-meeting" required> 
+                <label for="data-apresentacao">Data da Apresentação:</label>
+                <input type="date" id="data-apresentacao" name="data-apresentacao" required> 
+                <label for="timebox-pitch">Timebox do Pitch:</label>
+                <input type="number" id="timebox-pitch" name="timebox-pitch" required> 
+                <label for="membros-apresentacao">Membros que farão a Apresentação:</label>
+                <select name="membros-apresentacao" id="membros-apresentacao" multiple>
+                    <option value="ilan-garcia">Ilan Garcia</option>
+                    <option value="vinicius-lima">Vinicius Lima</option>
+                    <option value="angel-afonso">Angel Afonso</option>
+                    <option value="ryan-brayan">Ryan Brayan</option>
+                    <option value="gustavo-silva">Gustavo Silva de Oliveira</option>
+                    <option value="isaac-rodrigues">Isaac Rodrigues</option>
+                    <option value="vitor-henrique">Vitor Henrique</option>
+                    <option value="manuela-silva">Manuela Silva</option>
+                    <option value="yuri-castro">Yuri Castro</option>
+                    <option value="kainan-martins">Kainan Martins</option>
+                </select> 
+
+                <button type="submit" class="button">Enviar</button>
+            </form>
+        </section>
+
+        <section id="dados-scrum-team">
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

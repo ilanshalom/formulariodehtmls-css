@@ -1,0 +1,88 @@
+body {
+    /* Estilo global do corpo da página */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    /* Estilo do cabeçalho */
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    /* Estilo do título principal */
+    margin-top: 0;
+}
+
+h2 {
+    /* Estilo do subtítulo */
+    margin-bottom: 0;
+}
+
+main {
+    /* Layout principal usando flexbox */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#formulario {
+    /* Estilo do formulário */
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 50%;
+}
+
+#formulario label {
+    /* Estilo das etiquetas dentro do formulário */
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formulario input,
+#formulario textarea,
+#formulario select {
+    /* Estilo dos inputs, textareas e selects dentro do formulário */
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#formulario ul {
+    /* Estilo da lista de membros do Scrum Team */
+    list-style: none;
+    padding: 0;
+}
+
+#formulario ul {
+    /* Estilo da lista de membros do Scrum Team */
+    list-style: none;
+    padding: 0;
+}
+
+#formulario ul li {
+    /* Estilo dos itens da lista de membros do Scrum Team */
+    margin-bottom: 10px;
+}
+
+#dados-scrum-team {
+    /* Estilo dos dados do Scrum Team */
+    margin-top: 20px;
+}
+
+.titulo-membros, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+}
+
+/* Outros estilos... */
